@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@theme {
+  --spacing-1rem: 1rem;
+  --spacing-2rem: 2rem;
+  --font-pretendard: "Pretendard-Regular";
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
