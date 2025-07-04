@@ -4,6 +4,8 @@
   --spacing-1rem: 1rem;
   --spacing-2rem: 2rem;
   --font-pretendard: "Pretendard-Regular";
+  --text-shadow-xl: 0 8px 20px;
+  --drop-shadow-xl: 0 5px 10px;
 }
 
 @font-face {

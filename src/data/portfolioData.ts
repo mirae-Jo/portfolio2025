@@ -21,9 +21,16 @@ export const projects = {
     {
       name: "Camperspot",
       description: "캠핑장 정보를 제공하고 예약할 수 있는 서비스입니다.", // 임시 설명, 나중에 수정 가능
-      stack: ["React", "TypeScript"], // 임시 스택, 나중에 수정 가능
+      stack: ["NextJS", "TypeScript"], // 임시 스택, 나중에 수정 가능
       github: "https://github.com/h0ngwon/Camperspot",
       demo: "https://camperspot.vercel.app/", // 데모 링크가 있다면 여기에 추가
+    },
+    {
+      name: "My Task App",
+      description: "개인 일정을 기록할 수 있는 웹 어플리케이션입니다.", // 임시 설명, 나중에 수정 가능
+      stack: ["React", "TypeScript"], // 임시 스택, 나중에 수정 가능
+      github: "",
+      demo: "https://my-task-app-seven.vercel.app/", // 데모 링크가 있다면 여기에 추가
     },
   ],
 };
