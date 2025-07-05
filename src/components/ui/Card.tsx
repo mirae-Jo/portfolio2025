@@ -8,7 +8,7 @@ interface Project {
 
 const Card = ({ project }: { project: Project }) => {
   return (
-    <div className='card border border-[#3d8cb0] rounded-lg p-1rem'>
+    <div className='card border border-[#3d8cb0] rounded-lg p-4 transition-transform duration-300 ease-in-out hover:scale-102 hover:shadow-xl shadow-sky-800/40'>
       <h3 className='text-xl font-bold leading-7'>{project.name}</h3>
       <p className='mt-2'>{project.description}</p>
       <div className='stack mt-4'>

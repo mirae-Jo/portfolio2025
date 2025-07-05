@@ -6,6 +6,7 @@
   --font-pretendard: "Pretendard-Regular";
   --text-shadow-xl: 0 8px 20px;
   --drop-shadow-xl: 0 5px 10px;
+  --shadow-xl: 0 8px 15px;
 }
 
 @font-face {

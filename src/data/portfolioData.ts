@@ -6,6 +6,7 @@ export const personalInfo = {
 
 export const aboutMe = {
   title: "About Me",
+  subtitle: "소개",
   description:
     "문제를 해결하는 과정에서 성장하는 프론트엔드 개발자 조미래입니다. 기본에 충실하며, 논리적이고 직관적인 코드로 가치를 만드는 것을 중요하게 생각합니다.",
 };
@@ -36,7 +37,8 @@ export const projects = {
 };
 
 export const education = {
-  title: "Education",
+  title: "학력사항",
   school: "학점은행제",
   major: "컴퓨터공학 전공 (진행 중)",
+  period: "2024.09 ~ 진행중",
 };
