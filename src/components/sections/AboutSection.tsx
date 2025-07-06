@@ -1,4 +1,4 @@
-import { aboutMe, education } from "../../data/portfolioData";
+import { aboutMe, educationAndTraining } from "../../data/portfolioData";
 
 const AboutSection = () => {
   return (
@@ -9,8 +9,8 @@ const AboutSection = () => {
         {aboutMe.title}
       </h2>
 
-      <div className=' mb-16'>
-        <h3 className='text-2xl font-semibold mb-3 text-gray-800'>
+      <div className='mb-14'>
+        <h3 className='text-2xl font-semibold mb-4 text-gray-800'>
           {aboutMe.subtitle}
         </h3>
         <div className='border-l-2 border-white/80 pl-6 transition-transform duration-300 ease-in-out hover:scale-102'>
@@ -20,15 +20,24 @@ const AboutSection = () => {
         </div>
       </div>
 
-      <div className=''>
-        <h3 className='text-2xl font-semibold mb-3 text-gray-800'>
-          {education.title}
+      <div>
+        <h3 className='text-2xl font-semibold mb-4 text-gray-800'>
+          {educationAndTraining.title}
         </h3>
-        <div className='border-l-2 border-white/80 pl-6 transition-transform duration-300 ease-in-out hover:scale-102'>
-          <h4 className='text-xl font-bold'>{education.school}</h4>
-          <p className='text-gray-600'>{education.major}</p>
-          <p className='text-gray-500 mt-1'>{education.period}</p>
-        </div>
+        {educationAndTraining.list.map((item, index) => (
+          <div
+            key={index}
+            className='mb-6 border-l-2 border-white/80 pl-6 transition-transform duration-300 ease-in-out hover:scale-102'>
+            <h4 className='text-xl font-bold'>{item.name}</h4>
+            {item.type === "education" && (
+              <p className='text-gray-700 mt-2'>{item.major}</p>
+            )}
+            {item.description && (
+              <p className='text-gray-700 mt-2'>{item.description}</p>
+            )}
+            <p className='text-gray-500 mt-1'>{item.period}</p>
+          </div>
+        ))}
       </div>
     </section>
   );

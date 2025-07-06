@@ -36,9 +36,21 @@ export const projects = {
   ],
 };
 
-export const education = {
-  title: "학력사항",
-  school: "학점은행제",
-  major: "컴퓨터공학 전공 (진행 중)",
-  period: "2024.09 ~ 진행중",
+export const educationAndTraining = {
+  title: "학력 및 교육 이력",
+  list: [
+    {
+      type: "education",
+      name: "학점은행제",
+      major: "컴퓨터공학 전공 (진행 중)",
+      period: "2024.09 ~ 진행중",
+    },
+    {
+      type: "bootcamp",
+      name: "내일배움캠프 웹트랙 3기 (React)",
+      period: "2023.09 ~ 2024.02",
+      description:
+        "팀 프로젝트 - 총 5개 프로젝트 진행 / JavaScript, React, TypeScript, Next.js 툴 심화 사용법 학습, 상태관리 라이브러리 Context API, Redux 학습",
+    },
+  ],
 };
