@@ -10,11 +10,19 @@ const HeroSection = () => {
       ref={ref}
       className='text-white/80 relative flex flex-col justify-center h-screen p-2rem snap-start bg-[url("https://i.pinimg.com/736x/a5/20/4c/a5204cb54edafeaed19d93acfce7cc74.jpg")] bg-no-repeat bg-center bg-cover'>
       <h1
-        className={`transition-all duration-1000 ${isInViewport ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'} text-[5rem] leading-7 text-shadow-xl text-shadow-sky-800`}>
+        className={`font-thin transition-all duration-1000 ${
+          isInViewport
+            ? "opacity-100 translate-x-0"
+            : "opacity-0 -translate-x-10"
+        } text-[4.5rem] leading-8 text-shadow-xl text-shadow-sky-800`}>
         {personalInfo.name}
       </h1>
       <p
-        className={`transition-all duration-1000 delay-300 ${isInViewport ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'} mt-4 text-[4rem] leading-none text-shadow-xl text-shadow-sky-800`}>
+        className={`font-light transition-all duration-1000 delay-300 ${
+          isInViewport
+            ? "opacity-100 translate-x-0"
+            : "opacity-0 -translate-x-10"
+        } mt-4 text-[4rem] leading-none text-shadow-xl text-shadow-sky-800`}>
         A Frontend Developer
       </p>
       <div className='absolute bottom-6 left-1/2 -translate-x-1/2'>

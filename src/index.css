@@ -4,6 +4,8 @@
   --spacing-1rem: 1rem;
   --spacing-2rem: 2rem;
   --font-pretendard: "Pretendard-Regular";
+  --font-light: "Pretendard-Light";
+  --font-thin: "Pretendard-Thin";
   --text-shadow-xl: 0 8px 20px;
   --drop-shadow-xl: 0 5px 10px;
   --shadow-xl: 0 8px 15px;
@@ -12,6 +14,20 @@
 @font-face {
   font-family: "Pretendard-Regular";
   src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pretendard-Light";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pretendard-Thin";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff")
     format("woff");
   font-weight: 400;
   font-style: normal;
