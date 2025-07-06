@@ -6,7 +6,7 @@
   --font-pretendard: "Pretendard-Regular";
   --font-light: "Pretendard-Light";
   --font-thin: "Pretendard-Thin";
-  --text-shadow-xl: 0 8px 20px;
+  --text-shadow-xl: 0 5px 10px;
   --drop-shadow-xl: 0 5px 10px;
   --shadow-xl: 0 8px 15px;
 }

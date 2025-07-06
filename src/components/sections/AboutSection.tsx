@@ -5,7 +5,7 @@ const AboutSection = () => {
     <section
       id='about'
       className='min-h-screen p-8 pt-20 snap-start bg-[#82bbda]'>
-      <h2 className='text-white text-4xl font-bold mb-16 text-shadow-xl text-shadow-sky-800'>
+      <h2 className='text-white text-[2.5rem] font-light mb-16 text-shadow-xl text-shadow-sky-800'>
         {aboutMe.title}
       </h2>
 

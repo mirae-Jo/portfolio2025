@@ -6,7 +6,7 @@ const ProjectsSection = () => {
     <section
       id='projects'
       className='min-h-screen p-8 pt-20 snap-start bg-[#a1cee8]'>
-      <h2 className='text-white text-4xl font-bold mb-16 text-shadow-xl text-shadow-sky-800'>
+      <h2 className='text-white text-[2.5rem] font-light mb-16 text-shadow-xl text-shadow-sky-800'>
         {projects.title}
       </h2>
       <div className='project-list grid grid-cols-1 gap-8 md:grid-cols-2'>
