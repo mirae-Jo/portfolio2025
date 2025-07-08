@@ -5,7 +5,7 @@ import MusicPlayer from "./components/ui/MusicPlayer";
 
 function App() {
   return (
-    <div className='bg-white font-pretendard text-gray-800 h-screen snap-y snap-mandatory overflow-scroll'>
+    <div className='bg-white font-pretendard text-gray-800 h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden'>
       <MusicPlayer />
       <main>
         <HeroSection />
