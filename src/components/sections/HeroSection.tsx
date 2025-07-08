@@ -1,4 +1,3 @@
-import { personalInfo } from "../../data/portfolioData";
 import { useScrollAnimation } from "../../hooks/useScrollAnimation";
 
 const HeroSection = () => {
