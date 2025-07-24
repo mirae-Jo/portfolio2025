@@ -39,7 +39,7 @@ export const projects = {
         "커스텀이 가능한 저만의 블로그를 Gemini CLI와 함께 제작했습니다.", // 임시 설명, 나중에 수정 가능
       stack: ["React", "TypeScript"], // 임시 스택, 나중에 수정 가능
       github: "https://github.com/mirae-Jo/my-blog-app",
-      demo: "https://my-blog-app-red.vercel.app//", // 데모 링크가 있다면 여기에 추가
+      demo: "https://my-blog-app-red.vercel.app/", // 데모 링크가 있다면 여기에 추가
     },
   ],
 };
